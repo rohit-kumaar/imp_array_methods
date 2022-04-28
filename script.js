@@ -14,4 +14,8 @@ function loadScript(url) {
 // loadScript("./some.js");
 // loadScript("./every.js");
 // loadScript("./find.js");
-loadScript("./findIndex.js");
+// loadScript("./findIndex.js");
+// loadScript("./object.js");
+// loadScript("./array.js");
+// loadScript("./charAt.js");
+loadScript("./forEach_and_map.js");
