@@ -18,4 +18,6 @@ function loadScript(url) {
 // loadScript("./object.js");
 // loadScript("./array.js");
 // loadScript("./charAt.js");
-loadScript("./forEach_and_map.js");
+// loadScript("./forEach_and_map.js");
+// loadScript("./map_object.js");
+loadScript("./ternary_operator.js");
