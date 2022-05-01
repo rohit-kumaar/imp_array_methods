@@ -20,4 +20,6 @@ function loadScript(url) {
 // loadScript("./charAt.js");
 // loadScript("./forEach_and_map.js");
 // loadScript("./map_object.js");
-loadScript("./ternary_operator.js");
+// loadScript("./ternary_operator.js");
+// loadScript("./destructuring-arrays.js");
+loadScript("./destructuring-objects.js");
