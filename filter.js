@@ -10,7 +10,6 @@ console.log(newDate);
 //  comment filter age
 console.log(ages);
 const newAges = ages.filter((element) => element % 2 === 0);
-
 console.log(newAges);
 
 // comment filter the object

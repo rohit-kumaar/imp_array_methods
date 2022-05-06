@@ -11,3 +11,25 @@ export const companies = [
 ];
 
 export const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
+
+export const users = [
+  {
+    name: "Sam",
+    age: 64,
+    hobby: "cooking",
+    hobbies: {
+      hobby1: "cooking",
+      hobby2: "sleeping",
+    },
+  },
+  { name: "Bruno", age: 56 },
+  { name: "Dave", age: 56, hobby: "Football" },
+  {
+    name: "Jacob",
+    age: 65,
+    hobbies: {
+      hobby1: "driving",
+      hobby2: "sleeping",
+    },
+  },
+];

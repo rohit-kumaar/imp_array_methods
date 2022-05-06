@@ -7,7 +7,7 @@ function loadScript(url) {
 }
 
 // loadScript("./map_filter_sort_reduce.js");
-loadScript("./filter.js");
+// loadScript("./filter.js");
 // loadScript("./forEach.js");
 // loadScript("./map.js");
 // loadScript("./reduce.js");
@@ -23,3 +23,5 @@ loadScript("./filter.js");
 // loadScript("./ternary_operator.js");
 // loadScript("./destructuring-arrays.js");
 // loadScript("./destructuring-objects.js");
+// loadScript("./optional-chaining.js");
+loadScript("./promise.js");
