@@ -24,4 +24,5 @@ function loadScript(url) {
 // loadScript("./destructuring-arrays.js");
 // loadScript("./destructuring-objects.js");
 // loadScript("./optional-chaining.js");
-loadScript("./promise.js");
+// loadScript("./promise.js");
+loadScript("./async_await.js");
