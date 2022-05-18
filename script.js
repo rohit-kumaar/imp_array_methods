@@ -26,4 +26,5 @@ function loadScript(url) {
 // loadScript("./optional-chaining.js");
 // loadScript("./promise.js");
 // loadScript("./async_await.js");
-loadScript("./event_bubbling.js");
+// loadScript("./event_bubbling.js");
+loadScript("./closure.js");
