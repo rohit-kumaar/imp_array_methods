@@ -6,7 +6,7 @@ function loadScript(url) {
   head.appendChild(script);
 }
 
-loadScript("./map_filter_sort_reduce.js");
+// loadScript("./map_filter_sort_reduce.js");
 // loadScript("./filter.js");
 // loadScript("./forEach.js");
 // loadScript("./map.js");
@@ -28,3 +28,4 @@ loadScript("./map_filter_sort_reduce.js");
 // loadScript("./async_await.js");
 // loadScript("./event_bubbling.js");
 // loadScript("./closure.js");
+loadScript("./curring.js");
