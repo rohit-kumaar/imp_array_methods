@@ -1,5 +1,5 @@
 // simple curring
-const add = (a) => {
+const add1 = (a) => {
   return (b) => {
     return a + b;
   };
@@ -22,3 +22,14 @@ function user(data) {
 
 const result2 = user(data)("email");
 console.log(result2);
+
+// Infinity curring
+const add2 = (a) => {
+  return (b) => {
+    if (b) return add(a + b);
+    return a;
+  };
+};
+
+const result = add(5)(6)(4)();
+console.log(result);
