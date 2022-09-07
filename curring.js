@@ -5,7 +5,7 @@ const add1 = (a) => {
   };
 };
 
-const result1 = add(2)(3);
+const result1 = add1(2)(3);
 console.log(result1);
 
 // Real time example
@@ -26,10 +26,10 @@ console.log(result2);
 // Infinity curring
 const add2 = (a) => {
   return (b) => {
-    if (b) return add(a + b);
+    if (b) return add2(a + b);
     return a;
   };
 };
 
-const result = add(5)(6)(4)();
+const result = add2(5)(6)(4)();
 console.log(result);
