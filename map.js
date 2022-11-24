@@ -38,3 +38,9 @@ emp.map(
   (element) => (element.status = "active" && element.location != "Chennai")
 );
 console.log(emp);
+
+let k = emp.map((element) => {
+  return element.name.toUpperCase();
+});
+
+console.log(k);

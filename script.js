@@ -9,7 +9,7 @@ function loadScript(url) {
 // loadScript("./map_filter_sort_reduce.js");
 // loadScript("./filter.js");
 // loadScript("./forEach.js");
-// loadScript("./map.js");
+loadScript("./map.js");
 // loadScript("./reduce.js");
 // loadScript("./some.js");
 // loadScript("./every.js");
@@ -28,4 +28,4 @@ function loadScript(url) {
 // loadScript("./async_await.js");
 // loadScript("./event_bubbling.js");
 // loadScript("./closure.js");
-loadScript("./curring.js");
+// loadScript("./curring.js");
